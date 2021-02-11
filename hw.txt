@@ -1,0 +1,13 @@
+make class Animal with fields: name, size, color, functions: void gotoVet
+make class Dog extends Animal with fields: barkLength, functions: void guardHouse
+make class Labrador extends Dog with fields: intellegenceQuantity, functions: void bringSlippers
+make class Cat extends Animal with fields: favoriteMilkName, functions: void caddle
+make class SiamiCat extends Cat with fields: specialColor
+
+in main:
+create instance for each animal
+create an array with 5 elements and put each animal in the array
+create a for loop and iterator thorugh all Animal elements and execute gotoVet() for each one
+create a function which gets an argument of type Animal and prints its size ... call this method from main
+create a function which gets an argument of type Dog and ask the dog to guard the house ... call this method main
+
